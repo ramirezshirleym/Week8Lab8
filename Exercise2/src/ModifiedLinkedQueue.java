@@ -76,6 +76,7 @@ public class ModifiedLinkedQueue {
 				index++;
 			}
 			currNode.next = nextNode.next;
+			count--;
 		// if number of elements in queue is odd
 		} else {
 			int index = 1;
@@ -85,6 +86,7 @@ public class ModifiedLinkedQueue {
 				index++;
 			}
 			currNode.next = nextNode.next;
+			count--;
 		}
 	}
 }

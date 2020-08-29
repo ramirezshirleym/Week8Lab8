@@ -3,7 +3,7 @@ public class Driver {
 
 	public static void main(String[] args) {
 		// Integers to be enqueued
-		Integer[] intArray = {2, 9, 1, 4};
+		Integer[] intArray = { 2, 9, 1, 4 };
 
 		// Create an instance of an ArrayQ and a ModifiedLinkedQueue class
 		ArrayQ arrayQ = new ArrayQ();
